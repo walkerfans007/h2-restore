@@ -4,6 +4,8 @@
 
 **Etiquetas:** #HIFIWALKER #HIFIWALKERH2 #Rockbox #DAP #MP3Player #HiFiPlayer #FirmwareRestore
 
+> **Importante — basado en el firmware original HIFIWALKER V2.3.** Estas herramientas se desarrollaron y probaron en un H2 con el firmware original HIFIWALKER **V2.3**. Otras versiones del firmware no se han probado en un reproductor real y podrían no ser compatibles. Si tu reproductor tiene otra versión, haz antes una copia de seguridad y continúa bajo tu propia responsabilidad.
+
 Mantenido y empaquetado por **WalkerFans Team**. Herramientas comunitarias para el HIFI WALKER H2; no es una versión oficial ni una certificación de Rockbox. [English](README.md)
 
 Restaura el firmware de fábrica del reproductor, prepara una instalación de Rockbox o arranca temporalmente su menú de recuperación por USB.

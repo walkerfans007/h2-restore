@@ -1,5 +1,7 @@
 # WalkerFans H2 Tool — Quick Manual
 
+> **Important — based on HIFIWALKER original firmware V2.3.** These tools were developed and tested on an H2 running the original HIFIWALKER firmware **V2.3**. Other firmware versions have not been tested on a real player and may not be compatible. If your player runs a different version, back up first and proceed at your own risk.
+
 Back up your music/settings, record the original firmware version, and charge the player to at least 50%.
 
 macOS: extract v0.2.2, move the app to Applications, then open it. Requires macOS 13 or later, Intel or Apple Silicon. Windows: extract the complete v0.3.1 preview, keep Assets beside the EXE, and approve its administrator prompt. The Windows runtime is included; Windows hardware acceptance and Authenticode signing remain outstanding.
