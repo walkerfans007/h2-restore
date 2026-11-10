@@ -4,6 +4,16 @@
 
 **Etiquetas:** #HIFIWALKER #HIFIWALKERH2 #Rockbox #DAP #MP3Player #HiFiPlayer #FirmwareRestore
 
+## ⬇️ Descarga
+
+Los archivos de la aplicación están en la **[página de Releases](https://github.com/walkerfans007/h2-restore/releases)**, no en la lista de archivos de arriba.
+
+| Plataforma | Descarga directa |
+|---|---|
+| macOS 13+ (Apple Silicon / Intel) | **[HIFIWALKER-Restore-mac-v0.2.2.zip](https://github.com/walkerfans007/h2-restore/releases/download/tools-2026.11.09-preview/HIFIWALKER-Restore-mac-v0.2.2.zip)** (112 MB) |
+| Windows 10/11 x64 (preliminar) | **[HIFIWALKER-Restore-Windows-v0.3.1-preview.zip](https://github.com/walkerfans007/h2-restore/releases/download/tools-2026.11.09-preview/HIFIWALKER-Restore-Windows-v0.3.1-preview.zip)** (225 MB) |
+| Sumas de verificación | [SHA256SUMS](https://github.com/walkerfans007/h2-restore/releases/download/tools-2026.11.09-preview/SHA256SUMS) |
+
 > **Importante — basado en el firmware original HIFIWALKER V2.3.** Estas herramientas se desarrollaron y probaron en un H2 con el firmware original HIFIWALKER **V2.3**. Otras versiones del firmware no se han probado en un reproductor real y podrían no ser compatibles. Si tu reproductor tiene otra versión, haz antes una copia de seguridad y continúa bajo tu propia responsabilidad.
 
 Mantenido y empaquetado por **WalkerFans Team**. Herramientas comunitarias para el HIFI WALKER H2; no es una versión oficial ni una certificación de Rockbox. [English](README.md)
