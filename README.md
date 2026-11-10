@@ -4,16 +4,6 @@
 
 **Tags:** #HIFIWALKER #HIFIWALKERH2 #Rockbox #DAP #MP3Player #HiFiPlayer #FirmwareRestore
 
-## ⬇️ Download
-
-The app files are attached to the **[Releases page](https://github.com/walkerfans007/h2-restore/releases)**, not stored in the file list above.
-
-| Platform | Direct download |
-|---|---|
-| macOS 13+ (Apple Silicon / Intel) | **[HIFIWALKER-Restore-mac-v0.2.2.zip](https://github.com/walkerfans007/h2-restore/releases/download/tools-2026.11.09-preview/HIFIWALKER-Restore-mac-v0.2.2.zip)** (112 MB) |
-| Windows 10/11 x64 (preview) | **[HIFIWALKER-Restore-Windows-v0.3.1-preview.zip](https://github.com/walkerfans007/h2-restore/releases/download/tools-2026.11.09-preview/HIFIWALKER-Restore-Windows-v0.3.1-preview.zip)** (225 MB) |
-| Checksums | [SHA256SUMS](https://github.com/walkerfans007/h2-restore/releases/download/tools-2026.11.09-preview/SHA256SUMS) |
-
 > **Important — based on HIFIWALKER original firmware V2.3.** These tools were developed and tested on an H2 running the original HIFIWALKER firmware **V2.3**. Other firmware versions have not been tested on a real player and may not be compatible. If your player runs a different version, back up first and proceed at your own risk.
 
 Maintained and packaged by **WalkerFans Team**. Community tooling for the HIFI WALKER H2; not an official Rockbox release or certification.
@@ -23,7 +13,7 @@ Restore the player's factory firmware, prepare a Rockbox installation, or tempor
 | Download | Platform | Status |
 |---|---|---|
 | HIFIWALKER-Restore-mac-v0.2.2.zip | macOS 13+, Apple Silicon / Intel | Signed and notarized; workflow and close/reopen tested on the development Mac |
-| HIFIWALKER-Restore-Windows-v0.3.1-preview.zip | Windows 10/11 x64 | Preview; 17 automated checks, no Windows hardware acceptance test yet; unsigned |
+| HIFIWALKER-Restore-Windows-v0.3.2-preview.zip | Windows 10/11 x64 | Preview; Rockbox installation and safe eject tested on Windows hardware; formatting and USB rescue not yet tested on Windows; unsigned |
 
 The app supports English, French, German, Italian, Spanish, Japanese, Traditional Chinese, Simplified Chinese, Arabic and Russian. The player menu names remain in English so instructions match its screen.
 
@@ -32,6 +22,18 @@ Rockbox installation supports H2 original-firmware versions V1.0–V2.3. Factory
 Read [the manual](MANUAL.en.md), [changes](CHANGELOG.md), and [release notes](RELEASE.md). **Español:** [README](README.es.md) · [Manual](MANUAL.es.md).
 
 The bundled installer installs **standard Rockbox 4.0**, not the separate WalkerFans Bluetooth development build. To use that build, first establish a working Rockbox installation, then follow the Bluetooth project's upgrade instructions on supported hw4 players.
+
+## Installed the wrong version?
+
+The app only copies files to the card; the player performs the update itself. The app does **not** back up the player's internal firmware (it cannot read it), but most mistakes can still be undone:
+
+- **Rockbox does not replace the original system.** Hold **▶** while powering on to start the original firmware at any time.
+- **Wrong installer or Rockbox build, player still starts:** run the app again with the version shown in System Settings → Device Information → Version Information and install again. Holding **Volume +** while powering on opens the recovery menu, where **USB mode** connects the card to the computer.
+- **Black screen / won't start:** use **Help → Player won't start (rescue)…** to load the recovery menu into RAM over USB, choose **USB mode**, then continue in the main wizard with the correct version.
+- **Back to factory firmware:** **Restore factory firmware** (bundled for **V2.3 only**; for other versions, contact us with the diagnostics file from the Help menu).
+- **Card backups:** replaced update files and full card backups made before formatting are kept in **Documents → HIFIWALKER Backups** (Windows) or the location shown by the Mac app.
+
+Always check the version number on the player before you start.
 
 ## Credits
 

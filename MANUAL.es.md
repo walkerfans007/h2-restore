@@ -6,7 +6,7 @@ Antes de empezar, haz una copia de seguridad de tu música y ajustes, anota la v
 
 **macOS:** descomprime la v0.2.2, mueve la aplicación a Aplicaciones y ábrela. Requiere macOS 13 o posterior, Intel o Apple Silicon.
 
-**Windows:** descomprime por completo la versión preliminar v0.3.1, deja la carpeta `Assets` junto al EXE y acepta la solicitud de permisos de administrador. El entorno .NET va incluido. Esta versión aún no se ha probado en hardware Windows real y no tiene firma Authenticode.
+**Windows:** descomprime por completo la versión preliminar v0.3.2, deja la carpeta `Assets` junto al EXE y acepta la solicitud de permisos de administrador. El entorno .NET va incluido. La instalación de Rockbox y la expulsión segura se han probado en hardware Windows; no tiene firma Authenticode. Si Windows no puede expulsar la tarjeta automáticamente, usa el icono «Quitar hardware de forma segura» de la barra de tareas y continúa.
 
 ## Instalar Rockbox
 
@@ -31,6 +31,8 @@ En Windows, la primera vez puede hacer falta el controlador WinUSB mediante la w
 Detecta el dispositivo y carga el menú de recuperación. Es un arranque temporal en RAM, no una restauración de la memoria flash. Comprueba tú mismo la pantalla del reproductor, elige USB mode y vuelve al asistente principal. Si la pantalla sigue negra, guarda el archivo de diagnóstico.
 
 ## Arranque
+
+¿Instalaste la versión equivocada? Rockbox no elimina el sistema original (mantén ▶ al encender). Vuelve a instalar con la versión correcta, usa el rescate USB si la pantalla sigue negra o restaura el firmware de fábrica (solo V2.3). La aplicación no hace copia del firmware interno del reproductor.
 
 Enciende normalmente para Rockbox; mantén ▶ al encender para el sistema original; mantén Volumen + al encender para el menú de recuperación. Si cierras la ventana durante una operación con la tarjeta, la aplicación espera a que termine antes de salir.
 

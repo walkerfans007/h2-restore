@@ -1,5 +1,12 @@
 # Changes — WalkerFans H2 Tools
 
+## Windows 0.3.2 Preview
+- Fixed "Safely eject the card" failing with error 23, 8: the app now ejects the player's USB device (like "Safely Remove Hardware"), stopping at the nearest removable device and never touching USB hubs.
+- If the files are written and verified but Windows refuses automatic ejection, the app asks for manual ejection and continues instead of reporting an error.
+- "Finish on the player" page: numbered steps, with any manual-eject reminder shown first.
+- Fixed unreadable characters in error messages.
+- Rockbox installation and safe ejection tested on Windows hardware. Still unsigned.
+
 ## Windows 0.3.1 Preview
 - Added X1000 A108:1000 USB RAM rescue for three H2 hardware generations.
 - Added verified bundled bootloaders and official libusb 1.0.30 x64 DLL, WinUSB setup guidance, and ten-language rescue UI.
